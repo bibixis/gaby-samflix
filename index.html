@@ -102,7 +102,6 @@
     <div id="hero-section" class="relative h-[85vh] w-full overflow-hidden">
         <div class="absolute inset-0">
             <div class="hero-background-container">
-                <!-- Remplacé par le mariage civil en fond YouTube -->
                 <iframe 
                     id="hero-player"
                     src="https://www.youtube.com/embed/Fvdgw7_39DE?autoplay=1&mute=1&controls=0&loop=1&playlist=Fvdgw7_39DE&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1" 
@@ -206,11 +205,11 @@
         const videoData = [
             { id: 0, url: "https://youtu.be/Fvdgw7_39DE", videoId: "Fvdgw7_39DE", title: "LE MARIAGE CIVIL", desc: "Vive les mariés ! Passage devant Monsieur le Maire pour sceller cette union sous les acclamations et la joie des proches.", tags: ["Cérémonie", "Mairie", "Amour"], duration: "4 minutes" },
             { id: 1, url: "https://youtu.be/kV1sjRvnoKA", videoId: "kV1sjRvnoKA", title: "LA MANIF DU BONHEUR", desc: "Un regard exclusif sur notre dernière production créative, repoussant les limites de la narration visuelle et du montage cinématographique.", tags: ["Nouveau", "Cinématographique", "Exclusif"], duration: "10 minutes" },
-            { id: 2, url: "https://youtu.be/roOUOFJuw0g", videoId: "roOUOUFJuw0g", title: "GABY SE PRÉPARE", desc: "Les instants suspendus où Gaby se prépare pour le grand saut, entourée de sa famille et de ses amies les plus proches.", tags: ["Préparation", "Gaby", "Émotion"], duration: "17 minutes" },
+            { id: 2, url: "https://youtu.be/roOUOFJuw0g", videoId: "roOUOFJuw0g", title: "GABY SE PRÉPARE", desc: "Les instants suspendus où Gaby se prépare pour le grand saut, entourée de sa famille et de ses amies les plus proches.", tags: ["Préparation", "Gaby", "Émotion"], duration: "17 minutes" },
             { id: 3, url: "https://youtu.be/xItUujWinF8", videoId: "xItUujWinF8", title: "SAM SE PRÉPARE", desc: "Sam, entre excitation et concentration, vit les derniers moments avant la rencontre sur ce rocher de l'Atlantique.", tags: ["Préparation", "Sam", "Éclats"], duration: "18 minutes" },
             { id: 4, url: "https://youtu.be/R1fBVQXm2jg", videoId: "R1fBVQXm2jg", title: "VOEUX DES MAMANS", desc: "Ce soir-là, sur un îlot battu par l’Atlantique, les mères prennent la parole et racontent bien plus qu’un mariage : une histoire de transmissions, de lignées, de forces discrètes et de hasards devenus destin. Elles remercient les absents comme les vivants, les grands-parents aventuriers, les amis lointains, les terres traversées et cette île elle-même, témoin silencieux d’une réunion presque impossible. Rien de tout cela n’aurait eu lieu sans la vision et la ténacité de Gabby et Sam, capables de transformer une utopie logistique en un moment de grâce collective. Puis viennent les regards posés sur les mariés. Sam, homme de curiosité insatiable, bâtisseur de communautés, amoureux des humains et du monde, dont la manière d’aimer Gaby éclaire tout autour de lui. Gabby, femme libre, exigeante, profondément juste, qui ne sépare jamais les valeurs des actes, et dont la force, la tendresse et la radicalité tranquille font la fierté de sa mère. Ensemble, ils ne promettent pas la perfection, mais quelque chose de plus rare : rendre le monde un peu meilleur qu’ils ne l’ont trouvé. Et ce soir-là, portés par leurs familles, leurs histoires et leurs absents, ils lèvent un verre à cette promesse.", tags: ["Mères", "Transmission", "Île"], duration: "12 minutes" },
             { id: 5, url: "https://youtu.be/yrkcUz8G5Hw", videoId: "yrkcUz8G5Hw", title: "VOEUX DES GRZYBOWSKI", desc: "Ce jour-là, ce n’est pas seulement un mariage qui se joue, mais une rencontre entre deux trajectoires profondément engagées. En accueillant Gaby, la famille de Samuel accueille une femme d’intégrité, de convictions et de joie active — une joie pensée comme un acte de résistance, un choix politique et intime. Gaby ne se contente pas d’aimer : elle ouvre des espaces, crée du lien, transforme le quotidien, et fait de l’hospitalité une manière d’être au monde. Avec elle, Samuel n’a pas seulement trouvé une compagne, mais une alliée, quelqu’un qui voit sa lumière et l’aide à la faire grandir. Samuel, lui, est de ceux qui n’acceptent pas les flèches toutes tracées. Curieux, indigné très tôt face à l’injustice, fidèle à une flamme intérieure héritée autant de l’enfance que des combats menés, il avance debout, même quand le chemin se resserre. Ensemble, ils forment un couple qui ne croit pas à la joie par hasard, mais par choix — une joie qu’on protège, qu’on cultive, qu’on défend. Leur promesse n’est pas celle d’une vie sans tempêtes, mais celle d’un cap : rester maîtres de leur destin, capitaines de leurs âmes, et construire, coûte que coûte, quelque chose de juste, de beau et de vivant.", tags: ["Mariage", "Engagement", "Émouvant"], duration: "10 minutes" },
-            { id: 6, url: "https://youtu.be/qOqKYdc8C_I", videoId: "qOqKYdc8C_I", title: "VOEUX DU PAPA DORÉ", desc: "Le père de Gaby prend la parole sans notes figées, emporté par le raz-de-marée émotionnel des derniers jours. Il regarde autour de lui, incrédule : près de deux cents personnes réunies sur un rocher battu par l’Atlantique, dans un fort de son enfance, pour célébrer un amour qui a défié la logistique, la géographie et le bon sens. Ce mariage, pensé comme intime, est devenu un exploit collectif, une utopie concrète portée par la vision et l’obstination de Gaby et Samuel. Gaby, force tranquille née trop tôt, intelligente, joyeuse, déterminée, toujours tournée vers les autres; et Samuel, tourbillon d’engagements, d’idées et d’imprévus, capable d’oublier son costume de mariage dans un train et d’appeler un PMU au hasard pour le récupérer — sans jamais perdre le cap. Avec eux, la vie ne sera jamais monotone : ils sont faits l'un pour l'autre, prêts pour une existence hors norme, pleine d'aventures, de chaos joyeux et de bonheur partagé.", tags: ["Père", "Utopie", "Aventure"], duration: "11 minutes" },
+            { id: 6, url: "https://youtu.be/qOqKYdc8C_I", videoId: "qOqKYdc8C_I", title: "VOEUX DU PAPA DORÉ", desc: "Le père de Gaby prend la parole sans notes figées, emporté par le raz-de-marée émotionnel des derniers jours. Il regarde autour de lui, incrédule : près de deux cents personnes réunies sur un rocher battu par l’Atlantique, dans un fort de son enfance, pour célébrer un amour qui a défié la logistique, la géographie et le bon sens. Ce mariage, pensé comme intime, est devenu un exploit collectif, une utopie concrète portée par la vision et l’obstination de Gaby et Samuel. Gaby, force tranquille née trop tôt, intelligente, joyeuse, déterminée, toujours tournée vers les autres; et Samuel, tourbillon d’engagements, d’idées et d’imprévus, capable d’oublier son costume de mariage dans un train et d’appeler un PMU au hasard pour le récupérer — sans jamais perdre le cap. Avec humour et tendresse, il conclut une évidence : avec ces deux-là, la vie ne sera jamais monotone. Ils sont faits l'un pour l'autre, prêts pour une existence hors norme, pleine d'aventures, de chaos joyeux et de bonheur partagé.", tags: ["Père", "Utopie", "Aventure"], duration: "11 minutes" },
             { id: 7, url: "https://youtu.be/agnFchwCuOY", videoId: "agnFchwCuOY", title: "LE DERNIER BATEAU", desc: "Après le mariage civil, Sam et Gaby se rendent au port pour attendre les derniers invités, venus avec le bateau du soir. La troupe musicale ainsi que le prêtre sont à bord. Le groupe repars joyeusement vers le coeur du village pour fête ça en musique", tags: ["Port", "Musique", "Fête"], duration: "10 minutes" }
         ];
 
@@ -340,12 +339,16 @@
             modal.classList.remove('hidden');
             document.body.style.overflow = 'hidden';
         }
-        function closeInfoModal() { modal.classList.add('hidden'); document.body.style.overflow = 'auto'; }
+
+        // CORRECTION : Vider le conteneur vidéo pour arrêter le son
+        function closeInfoModal() { 
+            document.getElementById('modal-video-container').innerHTML = ""; // Coupe la vidéo et le son
+            modal.classList.add('hidden'); 
+            document.body.style.overflow = 'auto'; 
+        }
 
         // Initialisation
-        // "Le Jour J" : Les 7 premières vidéos (Civil, Manif, Preps x2, Voeux x3)
         const row1 = videoData.slice(0, 7);
-        // "Nouveautés & Originaux" : "Le dernier bateau" (index 7)
         const row2 = videoData.slice(7, videoData.length);
         
         createSectionRow("Le Jour J", row1, 1, 0);
@@ -353,7 +356,6 @@
 
         window.scrollRow = (el, dir) => { document.getElementById(el).scrollLeft += dir === 'left' ? -500 : 500; };
         
-        // Navigation scroll effect
         window.addEventListener('scroll', () => {
             document.getElementById('navbar').className = window.scrollY > 0 
                 ? "fixed w-full z-50 transition-all bg-[#141414] px-4 md:px-12 py-4 flex items-center justify-between shadow-2xl"
